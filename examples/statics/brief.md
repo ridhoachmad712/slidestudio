@@ -11,6 +11,6 @@
 - Sumber: bacaan dalam SOURCES.md; pengembangan terbatas berupa contoh orisinal.
 - Cakupan: konsep yang tampak pada peta cakupan; tidak mencakup seluruh silabus.
 - Desain: Teknis: Cambria dan Franklin Gothic Book. Template institusi boleh mengambil prioritas.
-- Keluaran contoh: PPTX editable dengan notes; PDF belum diekspor.
+- Keluaran contoh: PPTX editable dengan notes dan PDF hasil ekspor PowerPoint. PDF memuat slide, tanpa notes.
 - Status kasus/data: hipotetis; jangan disajikan sebagai temuan lapangan.
 - Preferensi ini hanya berlaku untuk contoh ini, bukan seluruh dosen atau mata kuliah.

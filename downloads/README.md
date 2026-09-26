@@ -22,8 +22,10 @@ Pilih satu paket berdasarkan contoh yang paling membantu menjelaskan kebutuhan A
 | `BRIEF-CONTOH.txt` | Kebutuhan yang digunakan untuk membuat contoh |
 | `CONTOH-REVISI.txt` | Permintaan revisi yang dapat disesuaikan |
 | `KEDALAMAN-DAN-REVISI.txt` | Pilihan fungsi, kedalaman, dan perubahan isi |
+| `PERTEMUAN-PERTAMA.txt` | Panduan percobaan pertama, prompt, pemeriksaan, dan revisi |
+| `contoh-marketing.pdf` | Acuan tampilan yang diekspor dari PPTX contoh |
 
-Nama contoh PPTX dan sumber menyesuaikan paket. Baca langkah pada `MULAI-DI-SINI.txt`; unggah instruksi, contoh, brief Anda, dan sumber. Dokumen tambahan dipakai sesuai kebutuhan. Jangan menganggap brief contoh cocok untuk semua kelas. PPTX contoh memakai font yang disebut pada brief; font tidak disertakan. PDF contoh belum disertakan dalam paket.
+Setiap paket berisi 11 file. Nama contoh PPTX, PDF, dan sumber menyesuaikan paket. Baca langkah pada `MULAI-DI-SINI.txt`; unggah instruksi, contoh, brief Anda, dan sumber. Dokumen tambahan dipakai sesuai kebutuhan. Jangan menganggap brief contoh cocok untuk semua kelas. PPTX contoh memakai font yang disebut pada brief; font tidak disertakan. PDF merupakan salinan slide, tanpa notes dosen. [Panduan pertemuan pertama](../docs/FIRST_LECTURE.md).
 
 Tambahkan materi kuliah Anda sendiri. Tidak perlu mengunggah seluruh repositori atau script. Paket menggunakan format TXT untuk memudahkan pembacaan instruksi; kemampuan menghasilkan file tetap bergantung pada alat yang tersedia di ChatGPT.
 

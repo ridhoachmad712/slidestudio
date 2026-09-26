@@ -2,6 +2,10 @@
 
 ## Belum dirilis
 
+- Melengkapi empat contoh dengan PDF yang diekspor dari PPTX final melalui PowerPoint; 40 halaman diperiksa dan teks dibandingkan dengan slide.
+- Menambahkan panduan pertemuan pertama dan PDF contoh pada setiap paket ChatGPT (11 file per paket).
+- Memperbarui pratinjau dari hasil ekspor PowerPoint dan mencatat cakupan pemeriksaan aplikasi secara spesifik.
+
 - Menambahkan contoh komunikasi kelompok, statika, dan metodologi penelitian: masing-masing delapan slide editable dengan notes, brief, sumber, peta cakupan, serta panduan revisi.
 - Menambahkan brief percakapan, pola penjelasan lintas bidang, pilihan kedalaman, dan revisi berdasarkan kebutuhan belajar.
 - Menyediakan empat paket ChatGPT dengan instruksi lengkap dan contoh sesuai bidang.

@@ -6,7 +6,7 @@
 - Pengembangan dengan riset konsep dan kasus orisinal hipotetis.
 - Cakupan: keputusan pemasaran, STP, bauran, diskon, pengalaman dan evaluasi.
 - Desain editorial: Garamond / Franklin Gothic Book, tinta gelap, latar hangat, merah bata.
-- Keluaran tersedia: PPTX editable. PDF belum disertakan.
+- Keluaran tersedia: PPTX editable dan PDF hasil ekspor PowerPoint, dengan isi/urutan sama. Notes hanya ada di PPTX.
 
 Tujuan: merumuskan masalah pelanggan, memilih target dengan alasan, menyusun bauran konsisten, dan menghitung kontribusi promosi. Diskusi meminta tindakan, bukti, dan risiko pada kasus kapasitas kedai.
 

@@ -16,11 +16,13 @@ Kuliah pengantar 16 slide dengan kasus kedai kopi fiktif. Materi mencakup STP, b
 |---|---|
 | ![Kasus Kopi Sela](docs/gallery/marketing-case.png) | ![Pendapatan dan kontribusi](docs/gallery/marketing-evidence.png) |
 
-**[Unduh PowerPoint](examples/marketing/manajemen-pemasaran.pptx)** · [Brief contoh](examples/marketing/brief.md) · [Sumber dan asumsi](examples/marketing/SOURCES.md)
+**[Unduh PowerPoint](examples/marketing/manajemen-pemasaran.pptx)** · **[Baca PDF](examples/marketing/manajemen-pemasaran.pdf)** · [Brief contoh](examples/marketing/brief.md) · [Sumber dan asumsi](examples/marketing/SOURCES.md)
 
 Teks dan grafik bisa diedit. Catatan dosen memuat penjelasan tambahan dan panduan diskusi. Kondisi dan angka Kopi Sela merupakan simulasi pembelajaran. Untuk mempertahankan tampilan saat mengedit, gunakan kedua font tersebut atau ganti secara konsisten dan periksa ulang. Font tidak disertakan dalam kit.
 
 ## Mulai menggunakan
+
+**Baru pertama mencoba? [Ikuti panduan satu pertemuan](docs/FIRST_LECTURE.md)**: siapkan materi, kirim pesan kebutuhan, periksa hasil, lalu beri revisi spesifik. PDF contoh juga tersedia dalam setiap paket untuk melihat tampilan tanpa mengedit PPTX.
 
 Pilih jalur yang sesuai:
 
@@ -73,6 +75,7 @@ Dosen tetap meninjau ketepatan akademik. Pemeriksa otomatis hanya memeriksa stru
 ## Dokumentasi
 
 - [Mulai menggunakan](docs/GETTING_STARTED.md)
+- [Membuat pertemuan pertama](docs/FIRST_LECTURE.md)
 - [Kebutuhan dan preferensi dosen](docs/LECTURER_GUIDE.md)
 - [Prinsip desain](docs/DESIGN.md) dan [contoh prompt](docs/PROMPTS.md)
 - [Ekspor PDF dan pemeriksaan](docs/TOOLS.md)

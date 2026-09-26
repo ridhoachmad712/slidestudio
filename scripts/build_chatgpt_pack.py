@@ -74,13 +74,15 @@ Repositori lengkap: https://github.com/ridhoachmad712/slidestudio
     guide = guide.replace('contoh-marketing.pptx', f'contoh-{example}.pptx').replace('sumber-contoh-marketing.txt', f'sumber-contoh-{example}.txt').replace('Sumber-contoh-marketing.txt', f'sumber-contoh-{example}.txt').replace('Contoh Marketing', f'Contoh {label}')
     guide = guide.replace('Garamond dan Franklin Gothic Book perlu tersedia', 'Font yang disebut pada brief contoh perlu tersedia').replace('Contoh Kopi Sela dan semua angkanya hipotetis.', 'Kasus dan data latihan dalam contoh bersifat hipotetis.')
     brief = brief.replace('contoh Marketing', f'contoh {label}')
-    guide += '\nBRIEF-CONTOH.txt menunjukkan kebutuhan contoh, bukan kewajiban untuk topik Anda. KEDALAMAN-DAN-REVISI.txt menjelaskan pilihan isi; CONTOH-REVISI.txt memuat permintaan revisi.\n'
+    guide += f'\nPERTEMUAN-PERTAMA.txt memandu percobaan pertama dengan prompt dan cara memeriksa hasil. BRIEF-CONTOH.txt menunjukkan kebutuhan contoh, bukan kewajiban untuk topik Anda. KEDALAMAN-DAN-REVISI.txt menjelaskan pilihan isi; CONTOH-REVISI.txt memuat permintaan revisi. contoh-{example}.pdf adalah ekspor dari PPTX yang sama untuk melihat tampilan; bukan PDF notes atau kunci jawaban.\n'
     revision = ROOT / f'examples/{example}/REVISIONS.md'
     entries = {
         'SLIDESTUDIO-INSTRUCTIONS.txt': instructions.encode('utf-8'),
         'BRIEF-KULIAH.txt': brief.encode('utf-8'),
         'MULAI-DI-SINI.txt': guide.encode('utf-8'),
         f'contoh-{example}.pptx': (ROOT / 'examples' / pptx).read_bytes(),
+        f'contoh-{example}.pdf': (ROOT / 'examples' / Path(pptx).with_suffix('.pdf')).read_bytes(),
+        'PERTEMUAN-PERTAMA.txt': (ROOT / 'docs/FIRST_LECTURE.md').read_bytes(),
         f'sumber-contoh-{example}.txt': (ROOT / f'examples/{example}/SOURCES.md').read_bytes(),
         'BRIEF-CONTOH.txt': (ROOT / f'examples/{example}/brief.md').read_bytes(),
         'CONTOH-REVISI.txt': (revision if revision.exists() else ROOT / 'docs/DEPTH_AND_REVISION.md').read_bytes(),

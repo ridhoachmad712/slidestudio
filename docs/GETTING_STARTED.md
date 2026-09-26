@@ -2,7 +2,9 @@
 
 ## Untuk dosen
 
-**Jalur ChatGPT yang disarankan:** unduh [paket ChatGPT](../downloads/slidestudio-chatgpt.zip) dan ekstrak. Baca `MULAI-DI-SINI.txt`. Unggah `SLIDESTUDIO-INSTRUCTIONS.txt`, `contoh-marketing.pptx`, brief yang diisi, dan materi sumber Anda. Panduan sudah digabung; tidak perlu memilih dua file Markdown secara manual. Gunakan chat biasa atau Project yang mendukung file dan pembuatan presentasi. Paket memberi instruksi serta acuan, bukan menambahkan kemampuan alat. [Isi paket](../downloads/README.md).
+Untuk percobaan pertama, ikuti [panduan satu pertemuan](FIRST_LECTURE.md). Panduan ini memberi contoh pesan awal, pemeriksaan hasil, dan revisi tanpa perlu menjalankan script.
+
+**Jalur ChatGPT yang disarankan:** unduh [paket ChatGPT](../downloads/slidestudio-chatgpt.zip) dan ekstrak. Baca `MULAI-DI-SINI.txt`. Unggah `SLIDESTUDIO-INSTRUCTIONS.txt`, `contoh-marketing.pptx`, brief yang diisi, dan materi sumber Anda. Panduan sudah digabung; tidak perlu memilih file Markdown secara manual. Gunakan chat biasa atau Project yang mendukung file dan pembuatan presentasi. Paket memberi instruksi serta acuan, bukan menambahkan kemampuan alat. [Isi paket](../downloads/README.md).
 
 Langkah di bawah merupakan alternatif memilih file dari repositori lengkap:
 

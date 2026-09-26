@@ -12,7 +12,7 @@ python scripts/export_pdf.py outputs/kuliah.pptx --out-dir outputs
 
 Tambahkan `--soffice /path/to/soffice` untuk executable eksplisit. Script tidak memasang aplikasi dan menolak menimpa PDF. Parameter mengikuti [dokumentasi LibreOffice](https://help.libreoffice.org/latest/en-US/text/shared/guide/start_parameters.html).
 
-PDF Mean dan median berasal dari model layout sama dengan PPTX dan memiliki teks selectable. Konversi otomatis PowerPoint/LibreOffice belum diuji dalam lingkungan pembuat kit. Marketing tersedia sebagai PPTX; PDF-nya belum disertakan. Ekspor dari PPTX final agar perubahan ikut terbawa.
+PDF Marketing, komunikasi kelompok, statika, dan metode penelitian telah diekspor langsung dari PPTX final memakai PowerPoint 16.0 pada Windows. Seluruh halaman diperiksa dan teksnya dapat dipilih. PDF Mean dan median berasal dari model layout yang sama dengan PPTX. Script LibreOffice belum diuji end-to-end. [Status dan batas pemeriksaan](COMPATIBILITY.md).
 
 ## Pemeriksaan PPTX
 

@@ -16,4 +16,4 @@ Jangan sertakan font berlisensi, logo tanpa izin, data mahasiswa, bahan terbatas
 
 Pertahankan penyesuaian terhadap dosen. Gaya satu contoh tidak menjadi kewajiban semua mata kuliah. Hindari runtime privat. Sebutkan pemeriksaan yang tidak tersedia dan jangan mengklaim pengecekan dalam aplikasi yang tidak digunakan.
 
-Jika mengubah skill, referensinya, panduan kedalaman/revisi, atau contoh, jalankan `python scripts/build_chatgpt_pack.py` untuk membangun ulang keempat paket ChatGPT. Periksa bahwa contoh PPTX, brief, dan sumber di paket sesuai berkas repositori. Laporan uji dosen mengikuti [protokol](pilot/README.md); bedakan hasil yang diamati dari fungsi yang belum dicoba.
+Jika mengubah skill, referensinya, panduan pertemuan pertama atau kedalaman/revisi, maupun contoh, jalankan `python scripts/build_chatgpt_pack.py` untuk membangun ulang keempat paket ChatGPT. Setelah mengubah PPTX, ekspor dan periksa PDF sebelum membangun paket. Periksa bahwa PPTX, PDF, brief, dan sumber di paket sesuai berkas repositori. Laporan uji dosen mengikuti [protokol](pilot/README.md); bedakan hasil yang diamati dari fungsi yang belum dicoba.

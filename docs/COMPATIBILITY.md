@@ -8,12 +8,14 @@ Tabel ini membedakan pemeriksaan yang dilakukan dari yang masih perlu dicoba. Bu
 | Paket PPTX dan jumlah slide | Diperiksa lokal | Script struktur serta finalizer; bukan sertifikasi mutu akademik |
 | Tampilan contoh | Dirender dan diperiksa | Renderer Artifact Tool; tidak sama dengan membuka di PowerPoint |
 | Upload paket pada ChatGPT pengguna | Belum diuji langsung | Paket TXT/PPTX siap dilampirkan, alat dan batas akun dapat berbeda |
-| Microsoft PowerPoint | Belum diperiksa langsung | Periksa font, objek, serta notes sebelum mengajar |
+| Microsoft PowerPoint, ekspor PDF | Dilakukan lokal, 27 September 2026 | PowerPoint 16.0 pada Windows membuka empat contoh; PDF hasil ekspor diperiksa halaman demi halaman. Pengeditan manual objek dan perangkat lain belum diuji. |
 | Google Slides | Belum diuji | Impor dapat mengubah layout atau objek |
 | LibreOffice dan ekspor otomatis PDF | Belum diuji end-to-end | Script tersedia; tidak ada klaim konversi contoh baru |
 | Uji pakai oleh dosen lain | Belum dilakukan | Protokol dan formulir tersedia di pilot/ |
 
-PDF contoh statistika tersedia dari model isi/layout yang sama. Contoh Marketing dan tiga contoh baru disertakan sebagai PPTX; PDF belum disertakan. Ekspor dari PPTX final di alat yang tersedia, lalu periksa ulang.
+PDF Marketing (16 halaman), komunikasi, statika, dan metode penelitian (masing-masing 8 halaman) diekspor langsung dari PPTX final menggunakan PowerPoint. Seluruh 40 halaman dirender dan diperiksa; jumlah, urutan, rasio halaman, serta teks slide dibandingkan dengan PPTX. Teks PDF dapat dipilih. Garamond, Franklin Gothic Book, dan Cambria tersedia pada perangkat ekspor; kesesuaian font perangkat lain belum diuji.
+
+PDF Mean dan median berasal dari model isi/layout yang sama, bukan dari proses ekspor PowerPoint di atas. PDF slide tidak memuat speaker notes; jawaban di notes tetap hanya tersedia dalam PPTX. Jika PPTX diubah, PDF lama perlu diekspor ulang.
 
 ## Mencatat hasil baru
 
