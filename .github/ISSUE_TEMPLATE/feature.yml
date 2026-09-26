@@ -1,0 +1,16 @@
+name: Usulan pengembangan
+description: Kebutuhan dosen, template, atau perbaikan alur.
+title: "[Usulan] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Kebutuhan dan contoh penggunaan
+      description: Jelaskan pengguna, kebutuhan kuliah, dan hasil yang diinginkan.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Usulan perubahan
+      description: Sertakan contoh tanpa bahan pribadi atau terbatas.

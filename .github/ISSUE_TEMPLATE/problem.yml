@@ -1,0 +1,28 @@
+name: Laporkan masalah
+description: Tampilan, isi, atau kompatibilitas file.
+title: "[Masalah] "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Jenis masalah
+      options:
+        - Tampilan atau layout
+        - Isi atau sumber akademik
+        - Kompatibilitas atau ekspor
+        - Instruksi atau dokumentasi
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File, versi kit, dan nomor slide
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Hasil yang diharapkan dan yang terjadi
+      description: Sebutkan langkah, aplikasi, dan sumber untuk koreksi isi. Jangan lampirkan data pribadi atau materi terbatas.
+    validations:
+      required: true

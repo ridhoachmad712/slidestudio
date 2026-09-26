@@ -1,0 +1,11 @@
+work/
+outputs/*
+!outputs/.gitkeep
+course/materials/*
+!course/materials/.gitkeep
+__pycache__/
+*.pyc
+.env
+.env.*
+~$*.pptx
+.DS_Store
