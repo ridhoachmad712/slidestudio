@@ -22,4 +22,4 @@ python scripts/check_pptx.py outputs/kuliah.pptx --slides 20 --require-notes
 
 Sesuaikan jumlah slide. Script memeriksa paket, urutan, teks/catatan, placeholder umum, grafik/tabel, dan objek tingkat atas di luar kanvas. Tidak mengukur overflow teks, mutu tulisan, ketepatan ilmiah, atau desain secara menyeluruh.
 
-`--allow-placeholders` hanya untuk pustaka template. Render dan periksa tiap slide serta sumber, rumus, jawaban, dan cakupan tujuan. Workflow GitHub memeriksa struktur template dan contoh. Status berhasil bukan sertifikasi akademik atau kompatibilitas semua aplikasi.
+`--allow-placeholders` hanya untuk pustaka template. Render dan periksa tiap slide serta sumber, rumus, jawaban, dan cakupan tujuan. Pemeriksaan struktur dijalankan secara lokal dengan perintah di atas. Tidak ada workflow GitHub Actions bawaan. Hasil berhasil bukan sertifikasi akademik atau kompatibilitas semua aplikasi.

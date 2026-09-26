@@ -1,5 +1,9 @@
 # Riwayat perubahan
 
+## Belum dirilis
+
+- Menghapus workflow GitHub Actions bawaan. Pemeriksaan struktur tetap tersedia melalui script lokal.
+
 ## 0.1.0
 
 Rilis awal yang disiapkan untuk publikasi. Tag dan GitHub Release belum dibuat.
