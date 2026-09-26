@@ -4,7 +4,20 @@
 
 Kit terbuka berisi skill AI, template akademik, dan brief pembelajaran untuk membantu dosen menyusun penjelasan, contoh, latihan, serta catatan mengajar. Mulai dari tujuan pertemuan dan materi Anda, lalu sesuaikan kedalaman isi dan tampilan.
 
-[Mulai menggunakan](docs/GETTING_STARTED.md) · [Contoh hasil](examples/README.md) · [Kebutuhan dosen](docs/LECTURER_GUIDE.md) · [Kontribusi](CONTRIBUTING.md)
+[Pertemuan pertama](docs/FIRST_LECTURE.md) · [Paket ChatGPT](downloads/README.md) · [Contoh PPTX dan PDF](examples/README.md) · [Kebutuhan dosen](docs/LECTURER_GUIDE.md)
+
+## Pilih paket untuk mulai
+
+Pilih contoh yang paling dekat dengan bentuk materi Anda. Ekstrak paket, baca `MULAI-DI-SINI.txt`, lalu lampirkan instruksi gabungan, contoh PPTX, dan sumber kuliah Anda. Kebutuhan bisa dijelaskan melalui chat; brief tidak wajib diisi sebagai formulir.
+
+| Paket | Cocok sebagai acuan untuk | Unduh |
+|---|---|---|
+| Marketing | Teori, studi kasus, dan keputusan bisnis | **[Paket ChatGPT](downloads/slidestudio-chatgpt.zip)** |
+| Komunikasi kelompok | Penjelasan konsep, analisis dialog, dan diskusi | **[Paket ChatGPT](downloads/slidestudio-chatgpt-social.zip)** |
+| Statika | Diagram, rumus, langkah hitung, dan grafik | **[Paket ChatGPT](downloads/slidestudio-chatgpt-statics.zip)** |
+| Metodologi penelitian | Alur rancangan, perbandingan, dan penilaian kesimpulan | **[Paket ChatGPT](downloads/slidestudio-chatgpt-methods.zip)** |
+
+Setiap paket berisi **11 file**: instruksi gabungan, brief kosong dan contoh, panduan mulai, panduan pertemuan pertama, panduan kedalaman, contoh revisi, PPTX, PDF, sumber, dan lisensi. Contoh menjadi acuan; isi presentasi baru tetap mengikuti materi dan kebutuhan kelas Anda.
 
 ## Contoh: Manajemen Pemasaran
 
@@ -33,13 +46,13 @@ Pilih jalur yang sesuai:
 
 [Isi paket ChatGPT dan prompt siap pakai](downloads/README.md). Contoh PPTX membantu menyampaikan tampilan secara konkret; instruksi saja tidak menjamin hasil identik. Paket bukan aplikasi atau pemasangan alat otomatis.
 
-**Pilih contoh yang dekat dengan materi Anda:** [Komunikasi kelompok](examples/social/README.md), [Statika](examples/statics/README.md), atau [Metodologi penelitian](examples/methods/README.md). Masing-masing memiliki PPTX delapan slide, brief terisi, sumber, peta cakupan, dan contoh revisi. [Paket ChatGPT per bidang](downloads/README.md) sudah menggabungkan instruksi yang diperlukan.
+Contoh lintas bidang tersedia sebagai PPTX delapan slide dan PDF delapan halaman, disertai brief terisi, sumber, peta cakupan, serta contoh revisi. Pilih paket melalui tabel di atas atau lihat [galeri lengkap](examples/README.md).
 
 1. **Siapkan materi.** Gunakan RPS, catatan kuliah, atau bacaan yang boleh dipakai.
 2. **Jelaskan kebutuhan.** Isi [brief pertemuan](course/brief.md) atau sampaikan topik, mahasiswa sasaran, durasi, dan bentuk penjelasan dengan bahasa biasa.
 3. **Buat dan tinjau.** Berikan skill dan sumber kepada agen AI yang dapat membuat file. Minta PPTX/PDF, kemudian periksa isi akademik dan tampilan.
 
-> Buat presentasi berdasarkan materi dan kebutuhan saya. Ikuti lecture-slides beserta panduan penyamaan kebutuhannya. Jelaskan asumsi dan sesuaikan kedalaman dengan mahasiswa. Buat PPTX editable dengan contoh, sumber, latihan, serta catatan dosen. Periksa tampilan setiap slide sebelum menyerahkan hasil.
+> Ikuti SLIDESTUDIO-INSTRUCTIONS.txt yang saya lampirkan. Buat presentasi berdasarkan materi dan kebutuhan kelas saya. Gunakan contoh PPTX sebagai acuan tampilan. Rangkum kebutuhan dan asumsi, lalu sesuaikan kedalaman dengan mahasiswa. Buat PPTX editable dengan penjelasan, contoh, sumber, latihan, serta catatan dosen. Buat PDF dari versi PPTX final jika alat ekspor tersedia. Periksa setiap slide dan laporkan format atau pemeriksaan yang belum dapat dilakukan.
 
 Pilih [panduan dosen](docs/GETTING_STARTED.md#untuk-dosen) atau [panduan agen proyek](docs/GETTING_STARTED.md#untuk-agen-proyek).
 
@@ -61,16 +74,23 @@ Tidak perlu mengisi formulir panjang: jelaskan kebutuhan melalui chat. [Pilihan 
 |---|---|---|
 | Academic Paper | Judul serif, latar hangat, aksen hijau | [PPTX](templates/academic-paper.pptx) |
 | Academic Ink | Tipografi sans, latar putih, aksen biru | [PPTX](templates/academic-ink.pptx) |
-| Manajemen Pemasaran | Contoh lengkap dengan komposisi editorial | [PPTX](examples/marketing/manajemen-pemasaran.pptx) |
+| Manajemen Pemasaran | 16 slide, komposisi editorial dan kasus bisnis | [PPTX](examples/marketing/manajemen-pemasaran.pptx) / [PDF](examples/marketing/manajemen-pemasaran.pdf) |
+| Norma dan peran kelompok | 8 slide, konsep dan analisis interaksi | [PPTX](examples/social/social.pptx) / [PDF](examples/social/social.pdf) |
+| Reaksi tumpuan balok | 8 slide, diagram, langkah hitung, dan grafik | [PPTX](examples/statics/statics.pptx) / [PDF](examples/statics/statics.pdf) |
+| Rancangan penelitian sederhana | 8 slide, alur rancangan dan kritik klaim | [PPTX](examples/methods/methods.pptx) / [PDF](examples/methods/methods.pdf) |
 | Mean dan median | Konsep, perhitungan, dan grafik | [PPTX](examples/mean-median.pptx) / [PDF](examples/mean-median.pdf) |
 
 Kedua template berisi tujuh layout 16:9 yang dapat diduplikasi. Template institusi mengambil prioritas bila diwajibkan. Marketing menunjukkan satu pilihan desain, bukan gaya wajib setiap mata kuliah.
+
+PDF Marketing dan tiga contoh lintas bidang diekspor langsung dari PPTX final menggunakan PowerPoint. Seluruh 40 halaman sudah dirender dan diperiksa, dengan teks yang dapat dipilih. **Catatan dosen dan jawaban di notes hanya ada dalam PPTX.** Jika PPTX diubah, ekspor ulang PDF agar keduanya tetap sesuai.
 
 ## Kemampuan dan persyaratan
 
 Kit ini menyediakan instruksi dan aset, tanpa layanan AI atau aplikasi web bawaan. Agen harus memiliki kemampuan membuat file presentasi. Mengunggah skill saja tidak menambahkan kemampuan tersebut. Ekspor PDF dan pemeriksaan render bergantung pada alat yang tersedia.
 
 Dosen tetap meninjau ketepatan akademik. Pemeriksa otomatis hanya memeriksa struktur PPTX, bukan kualitas desain atau kebenaran materi. [Detail ekspor dan pemeriksaan](docs/TOOLS.md).
+
+Ekspor lokal melalui PowerPoint sudah dilakukan untuk keempat contoh di atas. Pengeditan manual objek, perangkat lain, unggahan paket pada ChatGPT pengguna, dan uji pakai oleh dosen lain belum diuji langsung. Lihat [catatan kompatibilitas](docs/COMPATIBILITY.md) dan [protokol uji dosen](pilot/README.md).
 
 ## Dokumentasi
 
