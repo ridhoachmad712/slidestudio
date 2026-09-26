@@ -31,6 +31,8 @@ Pilih jalur yang sesuai:
 
 [Isi paket ChatGPT dan prompt siap pakai](downloads/README.md). Contoh PPTX membantu menyampaikan tampilan secara konkret; instruksi saja tidak menjamin hasil identik. Paket bukan aplikasi atau pemasangan alat otomatis.
 
+**Pilih contoh yang dekat dengan materi Anda:** [Komunikasi kelompok](examples/social/README.md), [Statika](examples/statics/README.md), atau [Metodologi penelitian](examples/methods/README.md). Masing-masing memiliki PPTX delapan slide, brief terisi, sumber, peta cakupan, dan contoh revisi. [Paket ChatGPT per bidang](downloads/README.md) sudah menggabungkan instruksi yang diperlukan.
+
 1. **Siapkan materi.** Gunakan RPS, catatan kuliah, atau bacaan yang boleh dipakai.
 2. **Jelaskan kebutuhan.** Isi [brief pertemuan](course/brief.md) atau sampaikan topik, mahasiswa sasaran, durasi, dan bentuk penjelasan dengan bahasa biasa.
 3. **Buat dan tinjau.** Berikan skill dan sumber kepada agen AI yang dapat membuat file. Minta PPTX/PDF, kemudian periksa isi akademik dan tampilan.
@@ -48,6 +50,8 @@ Pilih [panduan dosen](docs/GETTING_STARTED.md#untuk-dosen) atau [panduan agen pr
 - **Pemeriksaan pembelajaran:** tujuan, penjelasan, contoh, dan penilaian terhubung dalam peta cakupan.
 
 Detail ada di [panduan kebutuhan](docs/LECTURER_GUIDE.md). Preferensi satu presentasi tidak otomatis menjadi aturan permanen.
+
+Tidak perlu mengisi formulir panjang: jelaskan kebutuhan melalui chat. [Pilihan kedalaman dan revisi](docs/DEPTH_AND_REVISION.md) menunjukkan perbedaan penjelasan untuk ceramah, belajar mandiri, dan pembahasan kasus. [Keluarga desain](docs/DESIGN_FAMILIES.md) membantu memilih komposisi editorial, institusional, atau teknis berdasarkan isi.
 
 ## Template dan contoh
 
@@ -73,6 +77,10 @@ Dosen tetap meninjau ketepatan akademik. Pemeriksa otomatis hanya memeriksa stru
 - [Prinsip desain](docs/DESIGN.md) dan [contoh prompt](docs/PROMPTS.md)
 - [Ekspor PDF dan pemeriksaan](docs/TOOLS.md)
 - [Galeri dan contoh materi](examples/README.md)
+- [Kedalaman isi dan contoh revisi](docs/DEPTH_AND_REVISION.md)
+- [Pilihan keluarga desain](docs/DESIGN_FAMILIES.md)
+- [Status kompatibilitas dan pemeriksaan](docs/COMPATIBILITY.md)
+- [Protokol uji pakai dosen](pilot/README.md) — uji pengguna belum dilakukan
 - [Publikasi repositori](docs/PUBLISHING.md)
 - [Riwayat perubahan](CHANGELOG.md)
 

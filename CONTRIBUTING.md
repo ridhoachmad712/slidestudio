@@ -16,4 +16,4 @@ Jangan sertakan font berlisensi, logo tanpa izin, data mahasiswa, bahan terbatas
 
 Pertahankan penyesuaian terhadap dosen. Gaya satu contoh tidak menjadi kewajiban semua mata kuliah. Hindari runtime privat. Sebutkan pemeriksaan yang tidak tersedia dan jangan mengklaim pengecekan dalam aplikasi yang tidak digunakan.
 
-Jika mengubah skill atau contoh Marketing, bangun ulang `downloads/slidestudio-chatgpt.zip` dengan `python scripts/build_chatgpt_pack.py` agar instruksi distribusi tetap mengikuti sumbernya.
+Jika mengubah skill, referensinya, panduan kedalaman/revisi, atau contoh, jalankan `python scripts/build_chatgpt_pack.py` untuk membangun ulang keempat paket ChatGPT. Periksa bahwa contoh PPTX, brief, dan sumber di paket sesuai berkas repositori. Laporan uji dosen mengikuti [protokol](pilot/README.md); bedakan hasil yang diamati dari fungsi yang belum dicoba.

@@ -21,6 +21,8 @@ When used outside the kit, follow a provided design reference or choose a restra
 
 ## Plan the teaching sequence
 
+For depth selection, discipline-specific explanation, or broad revision feedback, read [teaching patterns](references/teaching-patterns.md). Accept a conversational brief and offer concrete examples of depth rather than requiring a long form. Choose an appropriate explanation pattern for each topic, and revise the reasoning or application when asked for more depth rather than merely expanding text.
+
 Create a compact storyboard with each slide's teaching purpose, main point, evidence, visual treatment, and lecturer notes. Sequence concepts from prerequisites to explanations, worked examples, application, and assessment as appropriate. Do not force every lesson into a pitch structure or a fixed number of sections.
 
 - Learning outcomes should specify a demonstrable action: calculate, distinguish, explain a mechanism, or evaluate a case.

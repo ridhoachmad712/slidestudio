@@ -2,21 +2,32 @@
 from pathlib import Path
 import re
 import zipfile
+import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def build():
+EXAMPLES = {
+    'marketing': ('Manajemen Pemasaran', 'marketing/manajemen-pemasaran.pptx'),
+    'social': ('Norma dan peran kelompok', 'social/social.pptx'),
+    'statics': ('Reaksi tumpuan balok', 'statics/statics.pptx'),
+    'methods': ('Rancangan penelitian sederhana', 'methods/methods.pptx'),
+}
+
+def build(example='marketing'):
+    label, pptx = EXAMPLES[example]
     skill = (ROOT / 'skills/lecture-slides/SKILL.md').read_text(encoding='utf-8-sig')
     body = re.sub(r'^---\s*\n.*?\n---\s*\n', '', skill, count=1, flags=re.S)
     body = body.replace('[needs alignment](references/needs-alignment.md)', 'the needs-alignment section included below')
     alignment = (ROOT / 'skills/lecture-slides/references/needs-alignment.md').read_text(encoding='utf-8-sig')
+    body = body.replace('[teaching patterns](references/teaching-patterns.md)', 'the teaching-patterns section included below')
+    patterns = (ROOT / 'skills/lecture-slides/references/teaching-patterns.md').read_text(encoding='utf-8-sig')
     instructions = '''# SlideStudio — instruksi untuk ChatGPT
 
 Gunakan isi file ini sebagai panduan pembuatan presentasi ketika diminta pengguna. Kebutuhan pertemuan pengguna mengambil prioritas atas default panduan. Contoh PPTX adalah acuan desain/struktur, bukan sumber fakta untuk mata kuliah lain.
 
 File ini menggabungkan skill dan panduan kebutuhan. Tidak perlu membaca file skill terpisah. Jalur seperti course/, templates/, dan docs/ merujuk repositori lengkap; dalam paket ChatGPT gunakan brief dan contoh yang dilampirkan. Jika template institusi tersedia, prioritaskan sesuai permintaan pengguna. Jika tidak ada alat pembuat PPTX/PDF atau render, sampaikan keterbatasannya dan jangan mengklaim file selesai. Jangan menganggap file yang disebut namun belum dilampirkan telah dibaca.
 
-''' + body + '\n\n' + alignment
+''' + body + '\n\n' + alignment + '\n\n' + patterns
     brief = '''BRIEF PERTEMUAN — SLIDESTUDIO
 
 Isi yang diketahui. Boleh diganti dengan penjelasan bebas dalam chat.
@@ -60,15 +71,24 @@ Mengunggah instruksi bukan pemasangan otomatis atau penambahan alat. Pembuatan P
 
 Repositori lengkap: https://github.com/ridhoachmad712/slidestudio
 '''
+    guide = guide.replace('contoh-marketing.pptx', f'contoh-{example}.pptx').replace('sumber-contoh-marketing.txt', f'sumber-contoh-{example}.txt').replace('Sumber-contoh-marketing.txt', f'sumber-contoh-{example}.txt').replace('Contoh Marketing', f'Contoh {label}')
+    guide = guide.replace('Garamond dan Franklin Gothic Book perlu tersedia', 'Font yang disebut pada brief contoh perlu tersedia').replace('Contoh Kopi Sela dan semua angkanya hipotetis.', 'Kasus dan data latihan dalam contoh bersifat hipotetis.')
+    brief = brief.replace('contoh Marketing', f'contoh {label}')
+    guide += '\nBRIEF-CONTOH.txt menunjukkan kebutuhan contoh, bukan kewajiban untuk topik Anda. KEDALAMAN-DAN-REVISI.txt menjelaskan pilihan isi; CONTOH-REVISI.txt memuat permintaan revisi.\n'
+    revision = ROOT / f'examples/{example}/REVISIONS.md'
     entries = {
         'SLIDESTUDIO-INSTRUCTIONS.txt': instructions.encode('utf-8'),
         'BRIEF-KULIAH.txt': brief.encode('utf-8'),
         'MULAI-DI-SINI.txt': guide.encode('utf-8'),
-        'contoh-marketing.pptx': (ROOT / 'examples/marketing/manajemen-pemasaran.pptx').read_bytes(),
-        'sumber-contoh-marketing.txt': (ROOT / 'examples/marketing/SOURCES.md').read_bytes(),
+        f'contoh-{example}.pptx': (ROOT / 'examples' / pptx).read_bytes(),
+        f'sumber-contoh-{example}.txt': (ROOT / f'examples/{example}/SOURCES.md').read_bytes(),
+        'BRIEF-CONTOH.txt': (ROOT / f'examples/{example}/brief.md').read_bytes(),
+        'CONTOH-REVISI.txt': (revision if revision.exists() else ROOT / 'docs/DEPTH_AND_REVISION.md').read_bytes(),
+        'KEDALAMAN-DAN-REVISI.txt': (ROOT / 'docs/DEPTH_AND_REVISION.md').read_bytes(),
         'LICENSE.txt': (ROOT / 'LICENSE').read_bytes(),
     }
-    dest = ROOT / 'downloads/slidestudio-chatgpt.zip'
+    filename = 'slidestudio-chatgpt.zip' if example == 'marketing' else f'slidestudio-chatgpt-{example}.zip'
+    dest = ROOT / 'downloads' / filename
     dest.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(dest, 'w') as archive:
         for name, payload in sorted(entries.items()):
@@ -82,4 +102,8 @@ Repositori lengkap: https://github.com/ridhoachmad712/slidestudio
     return dest
 
 if __name__ == '__main__':
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--example', choices=['all', *EXAMPLES], default='all')
+    args = parser.parse_args()
+    for example in EXAMPLES if args.example == 'all' else [args.example]:
+        build(example)

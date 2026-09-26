@@ -1,5 +1,7 @@
 # SlideStudio
 
+Read `skills/lecture-slides/references/teaching-patterns.md` for conversational briefs, concrete depth choices, discipline-specific explanations, and revision requests. Use examples as references for teaching and design, not as universal content. Do not claim pilot or application compatibility results that have not been measured; see `docs/COMPATIBILITY.md`.
+
 For new lectures, read `skills/lecture-slides/references/needs-alignment.md`. Read an available `course/lecturer-profile.md` as scoped preferences. Resolve source expansion, slide function, depth, and meeting requirements; use `course/coverage-map.md` to connect outcomes with teaching and assessment. Do not impose sample-slide approval when the lecturer requests completion directly. Do not persist provisional preferences without authorization.
 
 This repository produces editable PPTX lecture decks and PDF distribution copies. Read `skills/lecture-slides/SKILL.md` before creating or revising a deck. Read `course/brief.md` and explicitly provided source materials. Use the requested institutional template first; otherwise choose a supplied layout library according to the brief.

@@ -9,12 +9,14 @@ Langkah di bawah merupakan alternatif memilih file dari repositori lengkap:
 Tidak perlu menjalankan script. Gunakan agen yang mampu membaca materi dan membuat PPTX, atau edit template langsung di PowerPoint.
 
 1. Unduh template bila ingin mengikuti tampilannya.
-2. Siapkan `skills/lecture-slides/SKILL.md` **dan** `skills/lecture-slides/references/needs-alignment.md`. Keduanya perlu tersedia.
+2. Siapkan `skills/lecture-slides/SKILL.md` beserta **kedua referensinya**: `references/needs-alignment.md` dan `references/teaching-patterns.md`. Paket ChatGPT menggabungkan ketiganya secara otomatis.
 3. Isi `course/brief.md` atau jelaskan kebutuhan dengan bahasa biasa. Sertakan sumber dan contoh tampilan bila diperlukan.
 4. Lampirkan file tersebut pada agen. Minta PPTX editable, catatan dosen, dan PDF bila dibutuhkan.
 5. Periksa isi, sumber, dan jawaban latihan sebelum mengajar. Berikan koreksi spesifik.
 
 Jika aplikasi hanya menghasilkan teks, kit tidak mengubahnya menjadi pembuat file. Lihat [contoh prompt](PROMPTS.md) dan [panduan kebutuhan](LECTURER_GUIDE.md).
+
+Untuk materi konsep, hitungan, atau rancangan penelitian, pilih [paket yang sesuai](../downloads/README.md). Brief contoh menunjukkan tingkat rincian yang diperlukan; Anda dapat menggantinya dengan penjelasan lewat chat. Lihat [kedalaman dan revisi](DEPTH_AND_REVISION.md), [keluarga desain](DESIGN_FAMILIES.md), serta [pemeriksaan yang sudah dan belum dilakukan](COMPATIBILITY.md).
 
 ## Untuk agen proyek
 

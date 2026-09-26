@@ -1,5 +1,15 @@
 # Contoh kuliah
 
+## Contoh lintas bidang
+
+| Contoh | Fokus penjelasan | Berkas dan panduan |
+|---|---|---|
+| Norma dan peran kelompok | Konsep, dialog, interpretasi, diskusi | [PPTX dan brief](social/README.md) |
+| Reaksi tumpuan balok | Diagram benda bebas, langkah hitung, satuan, grafik | [PPTX dan brief](statics/README.md) |
+| Rancangan penelitian sederhana | Operasionalisasi, percabangan rancangan, perancu, kritik klaim | [PPTX dan brief](methods/README.md) |
+
+Masing-masing berisi delapan slide, speaker notes, sumber, peta cakupan, dan contoh permintaan revisi. Ini contoh pertemuan singkat, bukan seluruh mata kuliah. Kasus serta angka latihan hipotetis. PDF ketiganya belum disertakan. [Paket ChatGPT](../downloads/README.md) · [Status kompatibilitas](../docs/COMPATIBILITY.md).
+
 ## Manajemen Pemasaran
 
 [PowerPoint 16 slide](marketing/manajemen-pemasaran.pptx) · [Brief](marketing/brief.md) · [Sumber](marketing/SOURCES.md)

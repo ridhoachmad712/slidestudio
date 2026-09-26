@@ -2,6 +2,11 @@
 
 ## Belum dirilis
 
+- Menambahkan contoh komunikasi kelompok, statika, dan metodologi penelitian: masing-masing delapan slide editable dengan notes, brief, sumber, peta cakupan, serta panduan revisi.
+- Menambahkan brief percakapan, pola penjelasan lintas bidang, pilihan kedalaman, dan revisi berdasarkan kebutuhan belajar.
+- Menyediakan empat paket ChatGPT dengan instruksi lengkap dan contoh sesuai bidang.
+- Mendokumentasikan keluarga desain, status kompatibilitas, serta protokol/formulir uji pakai dosen; hasil uji pengguna belum tersedia.
+
 - Menambahkan paket ChatGPT berisi instruksi gabungan, brief singkat, contoh PPTX Marketing, dan prompt siap pakai.
 - Memisahkan jalur ChatGPT dan agen proyek di halaman utama.
 
