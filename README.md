@@ -22,6 +22,15 @@ Teks dan grafik bisa diedit. Catatan dosen memuat penjelasan tambahan dan pandua
 
 ## Mulai menggunakan
 
+Pilih jalur yang sesuai:
+
+| Pengguna | Paket | Cara memakai |
+|---|---|---|
+| Dosen menggunakan ChatGPT | **[Unduh paket ChatGPT](downloads/slidestudio-chatgpt.zip)** | Ekstrak, unggah satu instruksi gabungan, brief, contoh PPTX, dan materi Anda |
+| Pengguna Codex atau agen proyek | **[Unduh repositori lengkap](https://github.com/ridhoachmad712/slidestudio/archive/refs/heads/main.zip)** | Ekstrak dan buka folder proyek, lalu ikuti AGENTS.md |
+
+[Isi paket ChatGPT dan prompt siap pakai](downloads/README.md). Contoh PPTX membantu menyampaikan tampilan secara konkret; instruksi saja tidak menjamin hasil identik. Paket bukan aplikasi atau pemasangan alat otomatis.
+
 1. **Siapkan materi.** Gunakan RPS, catatan kuliah, atau bacaan yang boleh dipakai.
 2. **Jelaskan kebutuhan.** Isi [brief pertemuan](course/brief.md) atau sampaikan topik, mahasiswa sasaran, durasi, dan bentuk penjelasan dengan bahasa biasa.
 3. **Buat dan tinjau.** Berikan skill dan sumber kepada agen AI yang dapat membuat file. Minta PPTX/PDF, kemudian periksa isi akademik dan tampilan.

@@ -2,6 +2,9 @@
 
 ## Belum dirilis
 
+- Menambahkan paket ChatGPT berisi instruksi gabungan, brief singkat, contoh PPTX Marketing, dan prompt siap pakai.
+- Memisahkan jalur ChatGPT dan agen proyek di halaman utama.
+
 - Menghapus workflow GitHub Actions bawaan. Pemeriksaan struktur tetap tersedia melalui script lokal.
 
 ## 0.1.0
